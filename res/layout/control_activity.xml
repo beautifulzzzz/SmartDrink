@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.97"
+	    android:orientation="vertical" >
+
+	    <SurfaceView
+	        android:id="@+id/surface"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" />
+
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.001"
+	    android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/bt_heat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="加热" />
+	
+	    <Button
+	        android:id="@+id/bt_shut"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="关闭" />
+	
+	    <Button
+	        android:id="@+id/bt_updata"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="更新饮水机实时状态" />
+	</LinearLayout>
+	
+</LinearLayout>
